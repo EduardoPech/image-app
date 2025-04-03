@@ -1,0 +1,26 @@
+{
+  "name": "imagemin-optimizer",
+  "version": "1.0.0",
+  "description": "A project to optimize images for better performance in Lighthouse.",
+  "type": "module",
+  "scripts": {
+    "optimize": "gulp optimize-images",
+    "optimize-webp": "gulp create-webp"
+  },
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-imagemin": "^8.0.0",
+    "imagemin": "^8.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "imagemin-webp": "^6.0.0"
+  },
+  "devDependencies": {
+    "gulp-cli": "^2.3.0",
+    "gulp-rename": "^2.0.0",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-svgo": "^11.0.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
