@@ -1,11 +1,11 @@
-# ImageMin Optimizer
+# Image App
 
-ImageMin Optimizer is a simple JavaScript application that allows users to upload images and optimize them for better performance, particularly for Google Lighthouse scores. This project utilizes the imagemin library to compress images efficiently.
+Image App is a simple JavaScript application that allows users to upload images and optimize them for better performance, particularly for Google Lighthouse scores. This project utilizes the imagemin library to compress images efficiently.
 
 ## Project Structure
 
 ```
-imagemin-optimizer
+image-app
 ├── src
 │   ├── js
 │   │   └── main.js          # Main JavaScript code for handling image uploads and optimization
@@ -24,8 +24,8 @@ imagemin-optimizer
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/imagemin-optimizer.git
-   cd imagemin-optimizer
+   git clone https://github.com/EduardoPech/image-app.git
+   cd image-app
    ```
 
 2. Install the dependencies:
